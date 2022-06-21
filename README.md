@@ -31,16 +31,14 @@ The function will return:
   
   main() function
   In main( function ,we will take input of player1 and player2 what number players want to take.Acoording to user input,It will mark on board 'X' for player1 and 'O'
-  for player2.After each user input,it will run checkwin() function ,to check whether any of player is winning.
+  for Player2.After each user input,it will run checkwin() function ,to check whether any of player is winning.
   For example,Player1 entered input : 2.The board will appear like this.Since there is no winner it will proceed.
   ![image](https://user-images.githubusercontent.com/91776867/174723383-f6fd70b2-3140-4e34-8538-093061145c62.png)
-  Further,player2 entered input:7,the board will look like this
+  Further,Player2 entered input:7,the board will look like this
   ![image](https://user-images.githubusercontent.com/91776867/174723817-bd1bcf42-5e6d-4374-b4ed-ce1f603deb67.png)
-  Further,player1 entered input:3,the board will look like this
+  Further,Player1 entered input:3,the board will look like this
   ![image](https://user-images.githubusercontent.com/91776867/174724033-a78127fc-7ce9-4968-ad97-50fa1c4a65ff.png)
-  Further,player2 entered input:5,the board will look like this
+  Further,Player2 entered input:5,the board will look like this
   ![image](https://user-images.githubusercontent.com/91776867/174724151-48575aee-5597-4427-b6c1-f1e47c1ccd9f.png)
-   Further,player1 entered input:1,the board will look like this
+   Further,Player1 entered input:1,player1 will win the board will look like this
    ![image](https://user-images.githubusercontent.com/91776867/174725117-6b1c2977-4237-4dae-8d32-f99fe07f230b.png)
-بل
-يبلا
