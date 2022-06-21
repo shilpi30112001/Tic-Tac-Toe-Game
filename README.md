@@ -9,8 +9,38 @@ assuming best play from both players.It is also called noughts and crosses in 'C
 ->The game starts with one of the players and the game ends when one of the players has one whole row/ column/ diagonal filled with his/her respective character
 (‘O’ or ‘X’).
 ->If no one wins, then the game is said to be draw.
+
 #Implementation
 In this program ,I have coded mainly 2 function to perform the task required for this to execute.
-Two functions are: int checkwin();
-                   void board();
+Two functions are:  void board(); 
+                    int checkwin();
+                    
+ void board()
+ In this function ,I simply  created code to draw board for players with their marks.Mark of player1 will be 'X' and for playerr2, it will 'O'.
+ Initially the board will be marked with number 1 to 9.
+ void board();                  
                    
+![image](https://user-images.githubusercontent.com/91776867/174722131-f5530b0f-0fc2-44de-bd1a-eefaad7f5dd0.png)
+
+int checkwin()
+This function will check game status if any of the player has win.
+The function will return:
+	1 FOR GAME IS OVER WITH RESULT
+	-1 FOR GAME IS IN PROGRESS
+	O GAME IS OVER AND NO RESULT
+  
+  main() function
+  In main( function ,we will take input of player1 and player2 what number players want to take.Acoording to user input,It will mark on board 'X' for player1 and 'O'
+  for player2.After each user input,it will run checkwin() function ,to check whether any of player is winning.
+  For example,Player1 entered input : 2.The board will appear like this.Since there is no winner it will proceed.
+  ![image](https://user-images.githubusercontent.com/91776867/174723383-f6fd70b2-3140-4e34-8538-093061145c62.png)
+  Further,player2 entered input:7,the board will look like this
+  ![image](https://user-images.githubusercontent.com/91776867/174723817-bd1bcf42-5e6d-4374-b4ed-ce1f603deb67.png)
+  Further,player1 entered input:3,the board will look like this
+  ![image](https://user-images.githubusercontent.com/91776867/174724033-a78127fc-7ce9-4968-ad97-50fa1c4a65ff.png)
+  Further,player2 entered input:5,the board will look like this
+  ![image](https://user-images.githubusercontent.com/91776867/174724151-48575aee-5597-4427-b6c1-f1e47c1ccd9f.png)
+   Further,player1 entered input:1,the board will look like this
+   ![image](https://user-images.githubusercontent.com/91776867/174725117-6b1c2977-4237-4dae-8d32-f99fe07f230b.png)
+بل
+يبلا
