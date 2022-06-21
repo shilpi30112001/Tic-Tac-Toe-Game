@@ -70,7 +70,7 @@ The function will return:
    
    
    
-   Further,Player1 entered input:1,player1 will win the board will look like this
+   Further,Player1 entered input:1,player1 will win the board will look like this.
    
    
    ![image](https://user-images.githubusercontent.com/91776867/174725117-6b1c2977-4237-4dae-8d32-f99fe07f230b.png)
