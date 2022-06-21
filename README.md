@@ -17,7 +17,9 @@ In this program ,I have coded mainly 2 function to perform the task required for
 Two functions are:  void board(); 
                     int checkwin();
                     
- ###void board()
+ **void board()**
+ 
+ 
  In this function ,I simply  created code to draw board for players with their marks.Mark of player1 will be 'X' and for playerr2, it will 'O'.
  Initially the board will be marked with number 1 to 9.
  void board();                  
