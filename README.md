@@ -3,7 +3,7 @@ Tic-Tac-Toe-Game is a very simple game is a paper-and-pencil game for two player
 The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a solved game, with a forced draw
 assuming best play from both players.It is also called noughts and crosses in 'Commonwealth English, and Xs and Os in Irish English.
 
-#Rules of the Game
+# Rules of the Game
 ->The game is to be played between two people (in this program between player1 and player2).
 ->One of the player chooses ‘O’ and the other ‘X’ to mark their respective cells.
 ->The game starts with one of the players and the game ends when one of the players has one whole row/ column/ diagonal filled with his/her respective character
@@ -12,26 +12,26 @@ assuming best play from both players.It is also called noughts and crosses in 'C
 ![image](https://user-images.githubusercontent.com/91776867/174728065-2b574911-4b68-4e53-a501-a7034b98071a.png)
 
 
-#Implementation
+# Implementation
 In this program ,I have coded mainly 2 function to perform the task required for this to execute.
 Two functions are:  void board(); 
                     int checkwin();
                     
- void board()
+ **void board()**
  In this function ,I simply  created code to draw board for players with their marks.Mark of player1 will be 'X' and for playerr2, it will 'O'.
  Initially the board will be marked with number 1 to 9.
  void board();                  
                    
 ![image](https://user-images.githubusercontent.com/91776867/174722131-f5530b0f-0fc2-44de-bd1a-eefaad7f5dd0.png)
 
-int checkwin()
+**int checkwin()**
 This function will check game status if any of the player has win.
 The function will return:
 	1 FOR GAME IS OVER WITH RESULT
 	-1 FOR GAME IS IN PROGRESS
 	O GAME IS OVER AND NO RESULT
   
-  main() function
+  **main() function**
   In main( function ,we will take input of player1 and player2 what number players want to take.Acoording to user input,It will mark on board 'X' for player1 and 'O'
   for Player2.After each user input,it will run checkwin() function ,to check whether any of player is winning.
   For example,Player1 entered input : 2.The board will appear like this.Since there is no winner it will proceed.
