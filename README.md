@@ -12,7 +12,7 @@ assuming best play from both players.It is also called noughts and crosses in 'C
 ![image](https://user-images.githubusercontent.com/91776867/174728065-2b574911-4b68-4e53-a501-a7034b98071a.png)
 
 
-# Implementation
+## Implementation
 In this program ,I have coded mainly 2 function to perform the task required for this to execute.
 Two functions are:  void board(); 
                     int checkwin();
