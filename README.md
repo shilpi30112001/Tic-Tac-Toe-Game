@@ -12,6 +12,7 @@ assuming best play from both players.It is also called noughts and crosses in 'C
 (‘O’ or ‘X’).
 
 ->If no one wins, then the game is said to be draw.
+
 ![image](https://user-images.githubusercontent.com/91776867/174728065-2b574911-4b68-4e53-a501-a7034b98071a.png)
 
 
